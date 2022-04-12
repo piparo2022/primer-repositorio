@@ -1,0 +1,149 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: "Montserrat", sans-serif;
+   background-color: lightcyan;
+}
+ul {
+   list-style-type: none;
+}
+/*//////////////////////INDEX////////////////////////////////////////////////////////*/
+
+.header__nav {
+   display: grid;
+   grid-template-columns: 10% 60% 30%;
+   grid-template-rows: repeat(1, 1fr);
+   grid-gap: 5px;
+}
+.header__nav1 {
+   display: flex;
+}
+
+.header {
+   display: flex;
+   /*justify-content: space-between;*/
+   justify-content: flex-start;
+   align-items: center;
+   background-color: lightcyan;
+   padding: 0.5rem 1rem;
+   border-bottom: 1px solid blue;
+}
+
+.header__nav ul li {
+   display: inline-block;
+   margin-left: 2.5rem;
+}
+.header__nav a {
+   text-decoration: none;
+}
+.header__nav1 ul li {
+   display: inline-block;
+   margin-right: 1rem;
+}
+.header__nav1 {
+   margin-left: 20rem;
+}
+
+.encabezado {
+   background-color: lightcyan;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0rem;
+}
+
+.encabezado__title {
+   margin-bottom: 2rem;
+   margin-top: 1rem;
+   font-size: 50px;
+   margin-left: 5rem;
+   color: brown;
+}
+.encabezado__parrafo {
+   margin-bottom: 0rem;
+   margin-left: 2.5rem;
+}
+
+.encabezado__img {
+   width: 80rem;
+   height: 30rem;
+   padding: 2rem;
+   margin-left: 2rem;
+   border: solid green;
+}
+
+.info {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 2rem;
+}
+
+.info__card {
+   width: 300px;
+   background-color: rgb(23, 110, 110);
+   color: aliceblue;
+   border: solid green;
+}
+
+.pie {
+   display: flex;
+   justify-content: flex-start;
+   margin: 2rem;
+}
+.pie__nav a {
+   text-decoration: none;
+}
+
+.pie__nav ul li {
+   display: inline;
+   margin-right: 1rem;
+   background-color: lightcyan;
+}
+/*/////////////////////////////PAGINA DE CONTACTO///////////////////////////////////////////////////////////////////////*/
+
+.encabezadoR {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.encabezadoR__section {
+   width: 50%;
+}
+.encabezadoR__title {
+   margin-top: -12rem;
+   margin-left: -3rem;
+   font-size: 30px;
+   color: brown;
+   font-family: cursive;
+   margin-bottom: 1rem;
+}
+.encabezadoR__subtitle {
+   margin-left: -3rem;
+   margin-bottom: 1rem;
+   margin-block-end: auto;
+   font-family: cursive;
+   color: brown;
+}
+.encabezadoR__p {
+   margin-left: -3rem;
+   margin-bottom: 4rem;
+}
+
+.encabezadoR__img {
+   margin-top: 0.5rem;
+   margin-right: -3rem;
+   border: solid green;
+}
+.card {
+   display: flex;
+   justify-content: flex-start;
+   align-items: inline;
+}
+
+.card1 {
+   margin-bottom: 5rem;
+}
